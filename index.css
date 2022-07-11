@@ -1,0 +1,77 @@
+body{
+   
+    
+
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    
+    background-image: url("table.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#reset-el{
+    text-align: justify;
+    margin-right: 350px;
+    margin-bottom: 0px;
+    width: 45px;
+}
+
+h1{
+    
+   color: gold;
+}
+
+.buttons{
+    display:inline
+}
+
+.output{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: goldenrod;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 1px;
+}
+
+#hand-el {
+    
+    font-style: italic;
+}
+
+.buttons{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: #016f32;
+    width: 150px;
+    background-color: gold;
+    border-radius: 20px;
+    font-weight: bolder;
+
+}
+.buttons:hover{
+    background-color: goldenrod;
+}
+.button.disable{
+    background-color: gray;
+}
+
+#hud-el{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: goldenrod;
+    margin-left:50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
